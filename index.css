@@ -29,6 +29,12 @@ button{
     box-sizing: border-box;
     box-shadow: 2px 1px 2px 1px rgba(126 ,110 ,110);
 }
+button:nth-child(1):hover{
+    color: red;
+}
+button:nth-child(2):hover{
+    color: slateblue;
+}
  .text{
     font-size: 20px;
 }
@@ -48,4 +54,10 @@ button{
     font-weight: bold;
     color: rgba(126 ,110 ,110);
     font-family:'Poppins' sans-serif;
+}
+input{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Poppins' sans-serif;
+    color: rgba(126 ,110 ,110);
 }
