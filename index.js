@@ -1,5 +1,6 @@
 function submitName(){
-    alert('FORM HAS BEEN SUBMITED')
+    event.preventDefault();
+    document
     var dateTime = document.getElementById("date").value;
     // console.log(dateTime);
     // var D = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
@@ -10,21 +11,21 @@ function submitName(){
         'Akosua', 'Adwoa', 'Abeena', 'Akua', 'Yaa', 'Afua', 'Ama'
     ];
     
-    var date = new Date(dateTime) 
-    var maleindex = date.getDay()
+    var date = new Date(dateTime) ;
+    var nameIndex = date.getDay();
     if (document.getElementById('male').checked){
-     var namesM = maleAnkan[maleindex];
-     
-     
-    }
-    var date = new Date(dateTime)
-    var femaleindex = date.getDay()
+        var namesMale = maleAnkan[nameIndex];
+        document.getElementById("card").innerHTML = namesMale ;
+        
+        
+    };
+   
     if (document.getElementById('female').checked){
-     var namesF = femaleAnkan[femaleindex];   
-
-    }
-    var newName  = document.getElementById("").innerHTML = date.getDay();
-    // var  = document.getElementById("male").innerHTML = date.getDay();
-    //  console.log(namesF)
+        var namesFemale = femaleAnkan[nameIndex];   
+        document.getElementById("card").innerHTML= namesFemale;
+    };    
     
-}
+    
+    // alert('FORM HAS BEEN SUBMITED');
+    
+};
