@@ -20,7 +20,18 @@ nav a{
     font-weight: bold;
     font-family: 'Playfair Display', serif;
 }
-
+button{
+    float:inline-end;
+    font-size: 18px;
+    border-radius: 10%;
+    height: 5vh;
+    width: 15%;
+    box-sizing: border-box;
+    box-shadow: 2px 1px 2px 1px rgba(126 ,110 ,110);
+}
+ .text{
+    font-size: 20px;
+}
 .container p:nth-child(1){
     font-size: 35px;
     font-weight: bold;
