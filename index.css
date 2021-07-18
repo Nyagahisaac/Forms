@@ -10,3 +10,13 @@ body{
     background-color: #fff;
     height: 100vh;
 }
+nav{
+    height: 8vh;
+
+}
+nav a{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
