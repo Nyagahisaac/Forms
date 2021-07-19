@@ -15,14 +15,14 @@ function submitName(){
     var nameIndex = date.getDay();
     if (document.getElementById('male').checked){
         var namesMale = maleAnkan[nameIndex];
-        document.getElementById("card").innerHTML = namesMale ;
+        document.getElementById("card").innerHTML = 'Your Ankan name is : ' + namesMale ;
         
         
     };
    
     if (document.getElementById('female').checked){
         var namesFemale = femaleAnkan[nameIndex];   
-        document.getElementById("card").innerHTML= namesFemale;
+        document.getElementById("card").innerHTML= 'Your Ankan name is : ' +namesFemale;
     };    
     
     
