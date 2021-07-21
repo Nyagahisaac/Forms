@@ -11,13 +11,9 @@ AM Nyagah Isaac , basically what this website does is ,if you input your name an
 The project contains both CSS , HTML and JAVASCRIPT commands.
 It entales the if  ();statement to run the code.
 Has some  JS Arithmetics of finding date and days.
-<<<<<<< HEAD
 # LINKS
 https://nyagahisaac.github.io/Forms/
 # Contact
-=======
-https://nyagahisaac.github.io/Forms/
->>>>>>> 93bc992104d7b15f3ac5f5fda804ded8b4bf056b
 Contact.Nyagah Isaac
 Email:Nyagahisaac@gmail.com
 
